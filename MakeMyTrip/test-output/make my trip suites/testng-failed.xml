@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [make my trip suites]">
+  <test name="make my trip(failed)">
+    <classes>
+      <class name="TestScripts.HomeStay">
+        <methods>
+          <include name="afterClass"/>
+          <include name="homestay"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestScripts.HomeStay -->
+      <class name="TestScripts.BookFlight">
+        <methods>
+          <include name="home"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="travel"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestScripts.BookFlight -->
+    </classes>
+  </test> <!-- make my trip(failed) -->
+</suite> <!-- Failed suite [make my trip suites] -->

@@ -1,0 +1,8 @@
+<suite name="make my trip suites">
+<test name="make my trip">
+<classes>
+ <class name="TestScripts.BookFlight"/>
+ <class name="TestScripts.HomeStay"/>
+</classes>
+</test>
+</suite>
